@@ -24,11 +24,11 @@ struct question3: View {
                      ZStack {
                          Rectangle()
                              .cornerRadius(20)
-                             .padding()
+                             //.padding()
                              .foregroundColor(Color.sage4)
                          
-                     Text("Do you ever feel confident in your ability to complete an assignment but get held back by your thoughts?")
-                             .padding()
+                     Text("Do your thoughts hold you back about completing an assignment?")
+                             //.padding()
                              .font(.title)
                              .fontWeight(.semibold)
                              .foregroundColor(Color.white)
@@ -95,12 +95,9 @@ struct question3: View {
          }
         }
 
-    #Preview {
-        ContentView()
-    
-    }
+
 
 #Preview {
-    question2()
+    question3()
 }
 

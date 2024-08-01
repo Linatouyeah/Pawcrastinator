@@ -24,10 +24,10 @@ struct question6: View {
                      ZStack {
                          Rectangle()
                              .cornerRadius(20)
-                             .padding()
+                             //.padding()
                              .foregroundColor(Color.sage4)
                      Text("Do you ever spend hours just trying to start an assignment?")
-                             .padding()
+                             //.padding()
                              .font(.title)
                              .fontWeight(.semibold)
                              .foregroundColor(Color.white)
@@ -39,7 +39,7 @@ struct question6: View {
                      Spacer()
                      
                      Button("Agree") {
-                         img6 = "cat3"
+                         img6 = "cat6"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
                          .tint(.sage3)
@@ -48,7 +48,7 @@ struct question6: View {
                      Spacer()
                      
                      Button("Neutral") {
-                         img6 = "cat3"
+                         img6 = "cat6"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
                          .tint(.sage3)
@@ -57,7 +57,7 @@ struct question6: View {
                      Spacer()
                      
                      Button("Disagree") {
-                         img6 = "cat3"
+                         img6 = "cat6"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
                          .tint(.sage3)

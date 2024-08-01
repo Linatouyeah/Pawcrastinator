@@ -146,8 +146,8 @@
 				BD3E5C852C5B82770044B171 /* question8.swift */,
 				BD3E5C872C5B827E0044B171 /* question9.swift */,
 				BD3E5C892C5B82890044B171 /* question10.swift */,
-				BD3E5C752C5A46AF0044B171 /* perfectionist.swift */,
 				BD3E5C3F2C53D3D40044B171 /* Assets.xcassets */,
+				BD3E5C752C5A46AF0044B171 /* perfectionist.swift */,
 				BD3E5C412C53D3D40044B171 /* Preview Content */,
 			);
 			path = finalProjectGroup1;

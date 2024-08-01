@@ -24,10 +24,10 @@ struct question5: View {
                      ZStack {
                          Rectangle()
                              .cornerRadius(20)
-                             .padding()
+                             //.padding()
                              .foregroundColor(Color.sage4)
                      Text("Do you often find yourself completing minor tasks throughout the day?")
-                             .padding()
+                             //.padding()
                              .font(.title)
                              .fontWeight(.semibold)
                              .foregroundColor(Color.white)
@@ -40,7 +40,7 @@ struct question5: View {
                      Spacer()
                      
                      Button("Agree") {
-                         img5 = "cat3"
+                         img5 = "cat5"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
                          .tint(.sage3)
@@ -49,7 +49,7 @@ struct question5: View {
                      Spacer()
                      
                      Button("Neutral") {
-                         img5 = "cat3"
+                         img5 = "cat5"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
                          .tint(.sage3)
@@ -58,7 +58,7 @@ struct question5: View {
                      Spacer()
                      
                      Button("Disagree") {
-                         img5 = "cat3"
+                         img5 = "cat5"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
                          .tint(.sage3)

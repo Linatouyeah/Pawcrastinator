@@ -24,11 +24,11 @@ struct question4: View {
                      ZStack {
                          Rectangle()
                              .cornerRadius(20)
-                             .padding()
+                             //.padding()
                              .foregroundColor(Color.sage4)
                          
                      Text("Do you regularly write deadline dates in your calendar?")
-                             .padding()
+                             //.padding()
                              .font(.title)
                              .fontWeight(.semibold)
                              .foregroundColor(Color.white)
@@ -41,7 +41,7 @@ struct question4: View {
                      Spacer()
                      
                      Button("Agree") {
-                         img4 = "cat3"
+                         img4 = "cat4"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
                          .tint(.sage3)
@@ -50,7 +50,7 @@ struct question4: View {
                      Spacer()
                      
                      Button("Neutral") {
-                         img4 = "cat3"
+                         img4 = "cat4"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
                          .tint(.sage3)
@@ -59,7 +59,7 @@ struct question4: View {
                      Spacer()
                      
                      Button("Disagree") {
-                         img4 = "cat3"
+                         img4 = "cat4"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
                          .tint(.sage3)

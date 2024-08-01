@@ -25,18 +25,18 @@ struct question2: View {
                      ZStack {
                          Rectangle()
                              .cornerRadius(20)
-                             .padding()
+                             //.padding()
                              .foregroundColor(Color.sage4)
                          
-                         Text("Do you often overestimate the ease of completing your assignments?")
+                         
+                         Text("Do you often overestimate the ease of your assignment?")
+                             //.padding()
                              .font(.title)
-                             .padding()
-                             .font(.title)
-                             .fontWeight(.light)
+                             .fontWeight(.semibold)
                              .foregroundColor(Color.white)
                              .multilineTextAlignment(.center)
                          
-                     }
+                                         }
 
                      Spacer()
                      Spacer()
@@ -98,10 +98,7 @@ struct question2: View {
          }
         }
 
-    #Preview {
-        ContentView()
-    
-    }
+
 
 #Preview {
     question2()

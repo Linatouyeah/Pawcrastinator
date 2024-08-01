@@ -11,7 +11,6 @@ struct question9: View {
     @State private var img9 = ""
     var body: some View {
 
-         NavigationStack {
              ZStack {
                  RadialGradient(gradient: Gradient(colors: [Color.sage1 , Color.sage2]), center: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, startRadius: 99, endRadius: /*@START_MENU_TOKEN@*/500/*@END_MENU_TOKEN@*/)
                      .ignoresSafeArea()
@@ -24,10 +23,10 @@ struct question9: View {
                      ZStack {
                          Rectangle()
                              .cornerRadius(20)
-                             .padding()
+                             //.padding()
                              .foregroundColor(Color.sage4)
                      Text("Do you ever tell yourself you'll start tomorrow, only to realise the deadline is the next day?")
-                             .padding()
+                             //.padding()
                              .font(.title)
                              .fontWeight(.semibold)
                              .foregroundColor(Color.white)
@@ -40,7 +39,7 @@ struct question9: View {
                      Spacer()
                      
                      Button("Agree") {
-                         img9 = "cat3"
+                         img9 = "cat9"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
                          .tint(.sage3)
@@ -49,7 +48,7 @@ struct question9: View {
                      Spacer()
                      
                      Button("Neutral") {
-                         img9 = "cat3"
+                         img9 = "cat9"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
                          .tint(.sage3)
@@ -58,7 +57,7 @@ struct question9: View {
                      Spacer()
                      
                      Button("Disagree") {
-                         img9 = "cat3"
+                         img9 = "cat9"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
                          .tint(.sage3)
@@ -82,17 +81,13 @@ struct question9: View {
                      
                      
                          
-                         NavigationLink(destination: question10()) {
-                             
-                             Text("Next")
+
                                  
                          }
                      }
                      
                  }
           }
-         }
-        }
 
     #Preview {
         ContentView()

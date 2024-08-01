@@ -24,10 +24,10 @@ struct question7: View {
                      ZStack {
                          Rectangle()
                              .cornerRadius(20)
-                             .padding()
+                             //.padding()
                              .foregroundColor(Color.sage4)
                      Text("Do you feel fully committed to your work?")
-                             .padding()
+                             //.padding()
                              .font(.title)
                              .fontWeight(.semibold)
                              .foregroundColor(Color.white)
@@ -40,7 +40,7 @@ struct question7: View {
                      Spacer()
                      
                      Button("Agree") {
-                         img7 = "cat3"
+                         img7 = "cat7"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
                          .tint(.sage3)
@@ -49,7 +49,7 @@ struct question7: View {
                      Spacer()
                      
                      Button("Neutral") {
-                         img7 = "cat3"
+                         img7 = "cat7"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
                          .tint(.sage3)
@@ -58,7 +58,7 @@ struct question7: View {
                      Spacer()
                      
                      Button("Disagree") {
-                         img7 = "cat3"
+                         img7 = "cat7"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
                          .tint(.sage3)

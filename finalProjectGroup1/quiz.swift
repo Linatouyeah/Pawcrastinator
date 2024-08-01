@@ -22,11 +22,11 @@ struct quiz: View {
                     ZStack {
                         Rectangle()
                             .cornerRadius(20)
-                            .padding()
+                            //.padding()
                             .foregroundColor(Color.sage4)
                         
                         Text("Do you get easily distracted before starting an assignment?")
-                            .padding()
+                            //.padding()
                             .font(.title)
                             .fontWeight(.semibold)
                             .foregroundColor(Color.white)

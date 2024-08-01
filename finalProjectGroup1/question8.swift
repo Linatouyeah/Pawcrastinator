@@ -24,10 +24,10 @@ struct question8: View {
                      ZStack {
                          Rectangle()
                              .cornerRadius(20)
-                             .padding()
+                             //.padding()
                              .foregroundColor(Color.sage4)
                      Text("Do you often feel unsatisfied with your work and want to keep adding more?")
-                             .padding()
+                             //.padding()
                              .font(.title)
                              .fontWeight(.semibold)
                              .foregroundColor(Color.white)
@@ -40,7 +40,7 @@ struct question8: View {
                      Spacer()
                      
                      Button("Agree") {
-                         img8 = "cat3"
+                         img8 = "cat8"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
                          .tint(.sage3)
@@ -49,7 +49,7 @@ struct question8: View {
                      Spacer()
                      
                      Button("Neutral") {
-                         img8 = "cat3"
+                         img8 = "cat8"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
                          .tint(.sage3)
@@ -58,7 +58,7 @@ struct question8: View {
                      Spacer()
                      
                      Button("Disagree") {
-                         img8 = "cat3"
+                         img8 = "cat8"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
                          .tint(.sage3)
