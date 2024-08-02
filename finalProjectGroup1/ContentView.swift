@@ -4,6 +4,7 @@
 //
 //  Created by Scholar on 26/07/2024.
 //
+//THE APP IS NOW COMPLETE
 
 import SwiftUI
 
