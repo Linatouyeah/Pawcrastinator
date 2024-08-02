@@ -1,3 +1,4 @@
+
 //
 //  question2.swift
 //  quiz
@@ -7,7 +8,7 @@
 
 import SwiftUI
 
-struct question9: View {
+struct finalQuestion: View {
     @State private var img9 = ""
     var body: some View {
 
@@ -38,59 +39,31 @@ struct question9: View {
                      Spacer()
                      Spacer()
                      
-                     //Button("Agree") {
-                         //img9 = "cat9"
-                     //} .font(.title)
-                         //.buttonStyle(.borderedProminent)
-                         //.tint(.sage3)
-                         //.foregroundColor(Color.white)
-                     
-                     NavigationLink(destination: perfectionist()) {
-                         Text("Agree")
-                     }   .font(.title)
+                     Button("Agree") {
+                         img9 = "cat9"
+                     } .font(.title)
                          .buttonStyle(.borderedProminent)
                          .tint(.sage3)
                          .foregroundColor(Color.white)
-
-                     
                      Spacer()
                      Spacer()
                      
-                     //Button("Neutral") {
-                         //img9 = "cat9"
-                     //} .font(.title)
-                         //.buttonStyle(.borderedProminent)
-                         //.tint(.sage3)
-                         //.foregroundColor(Color.white)
-                     
-                     NavigationLink(destination: distracted()) {
-                         Text("Neutral")
-                     }   .font(.title)
+                     Button("Neutral") {
+                         img9 = "cat9"
+                     } .font(.title)
                          .buttonStyle(.borderedProminent)
                          .tint(.sage3)
                          .foregroundColor(Color.white)
-                     
                      Spacer()
                      Spacer()
                      
-                     //Button("Disagree") {
-                         //img9 = "cat9"
-                     //} .font(.title)
-                         //.buttonStyle(.borderedProminent)
-                         //.tint(.sage3)
-                         //.foregroundColor(Color.white)
-                     
-                     NavigationLink(destination: dreamer()) {
-                         Text("Disagree")
-                     }   .font(.title)
+                     Button("Disagree") {
+                         img9 = "cat9"
+                     } .font(.title)
                          .buttonStyle(.borderedProminent)
                          .tint(.sage3)
                          .foregroundColor(Color.white)
-                     
                      Spacer()
-                     
-                     
-                     
                      
                      Spacer()
                      Spacer()
@@ -117,7 +90,8 @@ struct question9: View {
                  }
           }
 
-    #Preview {
-        question9()
-    
-    }
+
+#Preview {
+    finalQuestion()
+}
+
